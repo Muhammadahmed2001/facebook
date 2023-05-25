@@ -1,0 +1,18 @@
+.bak-color{
+    background-color: #ffff !important;
+}
+.main{
+    display: flex;
+}
+.nev-input{
+    border-style: none;
+    background-color: #f0f2f5;
+    border-radius: 20px;
+    height: 35px;
+    outline: none;
+    width: 200px;
+
+}
+.main-nave{
+    display: flex;
+}
