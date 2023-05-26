@@ -1,10 +1,12 @@
-.bak-color{
+.bak-color {
     background-color: #ffff !important;
 }
-.main{
+
+.main {
     display: flex;
 }
-.nev-input{
+
+.nev-input {
     border-style: none;
     background-color: #f0f2f5;
     border-radius: 20px;
@@ -13,6 +15,14 @@
     width: 200px;
 
 }
-.main-nave{
+
+.main-nave {
     display: flex;
+    justify-content:space-between;
+
 }
+
+.my-pic {
+    border-radius: 50%;
+}
+
