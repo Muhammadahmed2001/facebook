@@ -18,7 +18,7 @@
 
 .main-nave {
     display: flex;
-    justify-content:space-between;
+    justify-content: space-between;
 
 }
 
@@ -26,3 +26,18 @@
     border-radius: 50%;
 }
 
+.story-border {
+    border-radius: 10px !important;
+    height: 150px !important;
+    margin: 12px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    padding: 0px !important;
+}
+
+.nav-icon>img {
+    margin-right: 70px !important;
+}
+.nav-icon-right>img{
+    margin-left: 15px !important;
+    
+}
