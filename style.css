@@ -20,7 +20,17 @@
     display: flex;
     justify-content: space-between;
     padding: 5px;
+    position: fixed;
+    top: 0px;
+    width: 100%;
+    z-index: 1;
 
+
+}
+.story-box{
+    display: flex;
+    justify-content: space-between;
+    padding: 5px;
 }
 
 .my-pic {
@@ -72,7 +82,8 @@
     background-color: #f0f2f5;
     width: 40%;
     position: absolute;
-    left: 28%;
+    left: 29%;
+    top: 50px;
    
 }
 
@@ -110,15 +121,21 @@
 .right {
     position: fixed;
     right: 0px;
+    top: 50px;
 }
 
 .left {
     position: fixed;
     left: 0px;
+    top: 50px;
 }
 
 .postCard {
-    width: 97%;
-    height: 500px;
+    padding: 6px;
     background-color: #ffff;
+    width: 97%;
+    height: 300px;
+    margin: 5px;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
 }

@@ -49,7 +49,7 @@
 
 
 
-            <div class="main-nave">
+            <div class="story-box">
                 <div class="">
                     <img width="100px" src="pic/smit.jpg" class="img-thumbnail story-border" alt="...">
 
@@ -73,31 +73,30 @@
 
 
 
-            <div class="modal fade" id="exampleModalToggle" aria-hidden="true" aria-labelledby="exampleModalToggleLabel"
-                tabindex="-1">
+            <div class="modal fade" id="exampleModalToggle">
                 <div class="modal-dialog modal-dialog-centered">
-                    <div class="modal-content">
+                    <!-- <div class="modal-content"> -->
 
                         <div class="card ">
                             <h5 class="card-header modal-card">Create post</h5>
                             <div class="card-body">
-                                <img class="my-pic " width="47px" height="50px" src="pic/my-pic.jpg" alt="">
+                                <img class="my-pic" width="47px" height="50px" src="pic/my-pic.jpg" alt="">
                                 <p class="inline-block"><b>Ahmed Karim</b></p>
                                 <div>
-                                    <textarea class="text-area" placeholder="Whats's on your mind, Ahmed?" name="" id=""
+                                    <textarea class="text-area" placeholder="Whats's on your mind, Ahmed?" name="" id="text-modal"
                                         cols="60" rows="6"></textarea>
                                 </div>
                                 <img height="50px" src="pic/backgroun-box.png" alt="">
                             </div>
                             
-                            <a href="#" class="btn btn-primary">Post</a>
+                            <button onclick="post()" class="btn btn-primary">Post</button>
                         </div>
 
 
-                    </div>
+                    <!-- </div> -->
                 </div>
             </div>
-            <div class="modal fade" id="exampleModalToggle2" aria-hidden="true"
+            <!-- <div class="modal fade" id="exampleModalToggle2" aria-hidden="true"
                 aria-labelledby="exampleModalToggleLabel2" tabindex="-1">
                 <div class="modal-dialog modal-dialog-centered">
                     <div class="modal-content">
@@ -114,7 +113,7 @@
                         </div>
                     </div>
                 </div>
-            </div>
+            </div> -->
             <div class="creat-post-input">
                 
                 <img class="my-pic pic-padding" width="47px" height="50px" src="pic/my-pic.jpg" alt="">
@@ -134,15 +133,13 @@
             </div>
 
             <div class="postCard">
+                <img width="47px" height="50px" class="my-pic" src="pic/my-pic.jpg" alt="">
+                <p class="inline-block"><b>Ahmed Karim</b></p>
+                <textarea class="text-area" name="" id="post-text" cols="60" rows="6"></textarea>
 
 
 
-                <!-- <div class="card text-center mb-3" style="width: 18rem;">
-                    <div class="card-body">
-                      <h5 class="card-title">Special title treatment</h5>
-                      <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
-                      <a href="#" class="btn btn-primary">Go somewhere</a>
-                    </div> -->
+             
 
 
 
