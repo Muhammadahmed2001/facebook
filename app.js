@@ -4,7 +4,9 @@ var postText = document.getElementById("post-text")
 
 function post(){
     textModal.value = postText
-    fullModal.style.display = "none"
+    // fullModal.style.display = "none"
+    // fullModal.style.background = "none"
+    // fullModal.remove()
 
     
     
