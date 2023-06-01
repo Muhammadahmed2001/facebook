@@ -1,3 +1,12 @@
+@media only screen and (max-width: 1000px) {
+    .right{
+        display: none;
+    }
+    .left{
+        display: none;
+    }
+}
+
 .bak-color {
     background-color: #ffff !important;
 }
@@ -27,7 +36,8 @@
 
 
 }
-.story-box{
+
+.story-box {
     display: flex;
     justify-content: space-between;
     padding: 5px;
@@ -84,7 +94,7 @@
     position: absolute;
     left: 29%;
     top: 50px;
-   
+
 }
 
 .input {
@@ -138,44 +148,50 @@
     margin: 5px;
     border-radius: 10px;
     box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    word-wrap: break-word;
 }
-.bg-0{
+
+.bg-0 {
     background-image: url(pic/bg-0.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     height: 200px;
     text-align: center;
-    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
-.bg-1{
+
+.bg-1 {
     background-image: url(pic/bg-1.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     height: 200px;
     text-align: center;
-    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
-.bg-2{
+
+.bg-2 {
     background-image: url(pic/bg-2.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     height: 200px;
     text-align: center;
-    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
-.bg-3{
+
+.bg-3 {
     background-image: url(pic/bg-3.png);
     background-repeat: no-repeat;
     background-size: cover;
     height: 200px;
     text-align: center;
-    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
-.bg-4{
+
+.bg-4 {
     background-image: url(pic/bg-4.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     height: 200px;
     text-align: center;
-    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }

@@ -12,17 +12,22 @@ var getBackGround = ""
 function clickBackground(backgroundColor) {
     if (backgroundColor == "orange") {
         getBackGround = "bg-0"
-        console.log('orange')
+        
     } else if (backgroundColor == "blue") {
         getBackGround = "bg-1"
-        console.log('blue')
+       
     } else if (backgroundColor == "purple") {
         getBackGround = "bg-2"
-        console.log('purple')
+       
+    }else if (backgroundColor == "yellow"){
+        getBackGround = "bg-3"
+    }else if( backgroundColor == "facebook"){
+        getBackGround = "bg-4"
     }
     
-
-    console.log(getBackGround);
+    textModal.className = getBackGround
+    textModal.style.width = "100%"
+    // console.log(getBackGround);
 }
 
 
@@ -34,16 +39,11 @@ function post() {
             <img width="47px" height="50px" class="my-pic" src="pic/my-pic.jpg" alt="">
             <p class="inline-block "><b>Ahmed Karim</b></p>
     <div class="${getBackGround}">
-    <h1>
+    <h3>
     ${textModal.value}
-    </h1>
+    </h3>
     </div>
     </div>
     ` + inSidePostCard.innerHTML
     textModal.value = ""
 }
-// var heading = document.createElement("h1")
-// var text = document.createTextNode(textModal.value)
-// heading.appendChild(text)
-// inSidePostCard.appendChild(heading)
-// console.log(heading)
