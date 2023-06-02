@@ -1,8 +1,9 @@
 @media only screen and (max-width: 1000px) {
-    .right{
+    .right {
         display: none;
     }
-    .left{
+
+    .left {
         display: none;
     }
 }
@@ -152,6 +153,7 @@
 }
 
 .bg-0 {
+    padding-top: 30px;
     background-image: url(pic/bg-0.jpg);
     background-repeat: no-repeat;
     background-size: cover;
@@ -161,6 +163,7 @@
 }
 
 .bg-1 {
+    padding-top: 30px;
     background-image: url(pic/bg-1.jpg);
     background-repeat: no-repeat;
     background-size: cover;
@@ -170,6 +173,7 @@
 }
 
 .bg-2 {
+    padding-top: 30px;
     background-image: url(pic/bg-2.jpg);
     background-repeat: no-repeat;
     background-size: cover;
@@ -179,6 +183,7 @@
 }
 
 .bg-3 {
+    padding-top: 30px;
     background-image: url(pic/bg-3.png);
     background-repeat: no-repeat;
     background-size: cover;
@@ -188,6 +193,7 @@
 }
 
 .bg-4 {
+    padding-top: 30px;
     background-image: url(pic/bg-4.jpg);
     background-repeat: no-repeat;
     background-size: cover;
